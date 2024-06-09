@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* Seção */
+@media (max-width: 425px) {
+    #primary {
+        border-right: none;
+        float: none;
+        padding-bottom: 0;
+        width: 385px;
+    }
+}
+
+/* Artigos */
+@media (max-width: 425px) {
+    .intro,
+    .launch,
+    .get-directions,
+    .phone {
+        display: flexbox;
+        align-items: center;
+        justify-content: center;
+        width: 385px;
+    }
+}
+
+/* Foto */
+@media (max-width: 425px) {
+    #vision {
+        height: 217px;
+        width: 385px;
+    }
+}
+
+/* Tabela */
+@media (max-width: 425px) {
+    #technical-specification {
+        text-align: center;
+        width: 385px;
+    }
+
+    #technical-specification td {
+        display: block;
+    }
+}
+
+/* Vídeos */
+@media (max-width: 425px) {
+    #routes,
+    #cell {
+        height: 217px;
+        width: 385px;
+    }
+}
+
+/* Secundário */
+@media (max-width: 425px) {
+    #lateral {
+        float: none;
+        margin-bottom: 40px;
+        width: 385px;
+    }
+
+    h3 {
+        width: 385px;
+    }
+}
+
+/* Mais vídeos */
+@media (max-width: 425px) {
+    #getting-started {
+        height: 217px;
+        width: 385px;
+    }
+}
+
+/* Mais artigos */
+@media (max-width: 425px) {
+    .history,
+    .features,
+    .hospitals {
+        display: flexbox;
+        align-items: center;
+        justify-content: center;
+        width: 385px;
+    }
+}
+
+/* Lista */
+@media (max-width: 425px) {
+    .features ul {
+        width: 365px;
+    }
+}
+
+/* Glass Breastfeeding */
+@media (max-width: 425px) {
+    .testimony {
+        width: 365px;
+    }
+
+    .testimony h4 {
+        width: 310px;
+    }
+}
