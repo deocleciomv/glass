@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/* Seção */
+#primary {
+    border-right: 1px solid goldenrod;
+    float: left;
+    padding-bottom: 40px;
+    width: 639px;
+}
+
+/* Artigos */
+.intro,
+.launch,
+.get-directions,
+.phone {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 599px;
+}
+
+/* Foto */
+#vision {
+    height: 337px;
+    margin-left: 20px;
+    margin-top: 40px;
+    position: relative;
+    width: 599px;
+}
+
+#vision figcaption {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#vision figcaption h1 {
+    font-size: 1.25rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#vision figcaption p {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+#vision:hover figcaption {
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+/* Tabela */
+#technical-specification {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1.25rem;
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 599px;
+}
+
+#technical-specification caption {
+    color: #757576;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#technical-specification td {
+    padding: 10px 5px;
+}
+
+#technical-specification .left {
+    background-color: gray;
+}
+
+#technical-specification .right {
+    background-color: gainsboro;
+}
+
+/* Vídeos */
+#routes,
+#cell {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+/* Secundário */
+#lateral {
+    float: right;
+    width: 384px;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+h3 {
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: justify;
+    width: 344px;
+}
+
+/* Mais vídeos */
+#getting-started {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* Mais artigos */
+.history,
+.features,
+.hospitals {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 344px;
+}
+
+/* Lista */
+.features ul {
+    background-color: beige;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1.25rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: justify;
+    width: 324px;
+}
+
+.features li {
+    padding: 10px;
+}
+
+/* Glass Breastfeeding */
+.consultation {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.testimony {
+    background-color: beige;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 324px;
+}
+
+.testimony img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.testimony h4 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1.25rem;
+    margin-left: 42px;
+    padding-bottom: 10px;
+    text-align: justify;
+    width: 262px;
+}

@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* Artigo */
+.description {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 984px;
+}
+
+/* Retratos */
+.portrait {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 220px 220px 220px;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.portrait > div {
+    border: 8px solid white;
+    box-shadow: 0 4px  8px  0 rgba(0, 0, 0, 0.6);
+    height: 220px;
+    position: relative;
+}
+
+.portrait > div:hover {
+    transform: scale(1.3);
+    transition: all 1s ease-out;
+    z-index: 1;
+}
+
+div > span {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1.25rem;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+}
+
+div:hover > span {
+    opacity: 1;
+}
+
+.photo1 {
+    background-image: url("../imagens/rapaz-cabeludo-com-oculos.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 385px 385px;
+}
+
+.photo2 {
+    background-image: url("../imagens/mulher-testando-oculos.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 385px 385px;
+}
+
+.photo3 {
+    background-image: url("../imagens/homem-visualizando-lembretes.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 385px 385px;
+}
+
+.photo4 {
+    background-image: url("../imagens/clima-e-tempo.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 385px 385px;
+}
+
+.photo5 {
+    background-image: url("../imagens/rapaz-feliz-com-oculos.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 385px 385px;
+}
+
+.photo6 {
+    background-image: url("../imagens/testando-funcionalidades-oculos.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 385px 385px;
+}
+
+.photo1:hover,
+.photo2:hover,
+.photo3:hover,
+.photo4:hover,
+.photo5:hover,
+.photo6:hover {
+    background-position: 0 0;
+    background-size: 320px 320px
+}

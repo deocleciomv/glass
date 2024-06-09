@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* Artigo */
+@media (max-width: 425px) {
+    .faq {
+        width: 385px;
+    }
+
+    #about {
+        width: 385px;
+    }
+
+    details summary {
+        text-align: center;
+    }
+}
+
+/* Formulário */
+@media (max-width: 425px) {
+    #container {
+        width: 385px;
+    }
+
+    #register {
+        text-align: center;
+        width: 345px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    #register td {
+        display: block;
+    }
+
+    #identification,
+    #key,
+    #address,
+    #gender,
+    #birth,
+    #zip-code,
+    #public-place,
+    #house,
+    #neighborhood,
+    #city,
+    #msg,
+    #qtd,
+    #money {
+        text-align: center;
+        width: 345px;
+    }
+
+    #uf {
+        text-align: center;
+        width: 347px;
+    }
+}

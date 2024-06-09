@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* Cabeçalho */
+@media (max-width: 425px) {
+    #top {
+        height: 224px;
+    }
+
+    #top picture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #top img {
+        margin-left: 0;
+    }
+
+    #menu {
+        display: flex;
+        float: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #menu ul {
+        text-align: center;
+    }
+
+    #menu li {
+        display: block;
+        padding-right: 0;
+    }
+}
+
+/* Conteúdo */
+@media (max-width: 425px) {
+    #content {
+        box-shadow: none;
+        margin-top: 228px;
+        width: 425px;
+    }
+}

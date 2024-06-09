@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* Artigo */
+@media (max-width: 425px) {
+    .description {
+        margin: 40px 20px;
+        width: 385px;
+    }
+}
+
+/* Retratos */
+@media (max-width: 425px) {
+    .portrait {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portrait > div {
+        border: none;
+        box-shadow: none;
+        height: 385px;
+        margin-left: 20px;
+        width: 385px;
+    }
+
+    .portrait > div:hover {
+        transform: none;
+        transition: none;
+    }
+
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6 {
+        background-position: 0px 0px;
+    }
+
+    .photo1:hover,
+    .photo2:hover,
+    .photo3:hover,
+    .photo4:hover,
+    .photo5:hover,
+    .photo6:hover {
+        background-position: 0 0;
+        background-size: 385px 385px;
+    }
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+article {
+    overflow-x: hidden;
+    padding-bottom: 160px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+    article h1 {
+        text-align: center;
+    }
+}

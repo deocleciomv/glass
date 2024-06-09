@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'ComfortaaMedium';
+    src: url('comfortaa-medium.eot');
+    src: url('comfortaa-medium.eot?#iefix') format('embedded-opentype'), url('comfortaa-medium.woff') format('woff'), url('comfortaa-medium.ttf') format('truetype'), url('comfortaa-medium.svg#ComfortaaMedium') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}

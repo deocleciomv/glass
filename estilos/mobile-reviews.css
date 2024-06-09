@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media (max-width: 425px) {
+    .mapping {
+        width: 385px;
+    }
+
+    #mapping-glass {
+        width: 385px;
+    }
+
+    #mapping-window {
+        float: none;
+        margin-top: 40px;
+        width: 385px;
+    }
+}

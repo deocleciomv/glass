@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*by Deoclécio*/
+
+* {
+    border: none;
+    font-size: 100%;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

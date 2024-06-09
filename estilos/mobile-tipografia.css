@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media (max-width: 425px) {
+    article h1,
+    article h2,
+    aside h2 {
+        text-align: center;
+    }
+}

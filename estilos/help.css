@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/* Artigo */
+.faq {
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 984px;
+}
+
+#about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 660px;
+}
+
+details summary {
+    background-color: gainsboro;
+    border-bottom: 1px solid #757576;
+    cursor: pointer;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    font-style: normal;
+    padding: 32px;
+}
+
+details summary::marker {
+    color: wheat;
+}
+
+details p {
+    background-color: beige;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1.25rem;
+    margin-top: 0;
+    padding: 16px;
+}
+
+/* Formulário */
+#container {
+    background-color: whitesmoke;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 660px;
+}
+
+#register {
+    margin-left: auto;
+    margin-right: auto;
+    width: 596px;
+}
+
+.title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.left {
+    width: 154px;
+}
+
+td {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+legend {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+label,
+td {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+}
+
+input,
+select,
+textarea {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1.25rem;
+}
+
+input:hover,
+textarea:hover {
+    background-color: wheat;
+}
+
+#identification,
+#key,
+#address,
+#gender,
+#birth,
+#zip-code,
+#public-place,
+#house,
+#neighborhood,
+#city,
+#msg,
+#qtd,
+#money {
+    border: 1px solid #757576;
+    width: 448px;
+}
+
+#uf {
+    border: 1px solid #757576;
+    width: 450px;
+}
+
+.end {
+    background-color: darkseagreen;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 2px 8px;
+}
+
+.end:hover {
+    background-color: #757576;
+    transition: all 0.5s ease-out;
+}
